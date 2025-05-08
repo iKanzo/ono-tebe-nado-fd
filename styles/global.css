@@ -89,10 +89,9 @@ button {
   gap: 72px;
 }
 
-.footer {
-  min-height: 180px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 0 50px;
-}
+ .footer {
+   min-height: 180px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+   padding: 61px 50px 0;
+  }
