@@ -1,1 +1,97 @@
-/* место для вашего кода */
+.header__links-list {
+    display: flex;
+    gap: 32.5px;
+    list-style: circle;
+    color: #000;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.header__link {
+    border-bottom: 1px solid #000;
+}
+
+/* сделал для дополнительно отступа только для pixel perfect,  */
+.header__links-list-item:last-child {
+    margin-left: 2px;
+}
+
+.header__links-list-item_no-bullit {
+    margin-left:  0;
+    list-style: none;
+}
+
+.header__link_active  {
+    border: none;
+}
+
+.header__logo {
+    display: block;
+    height: 105px;
+    width: 137px;
+    cursor: pointer;
+}
+
+.header__address {
+    max-width: 240px;
+    justify-self: end;
+}
+
+.address__link {
+    line-height: 24.3px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #000;
+}
+
+.address__text {
+    line-height: 24.3px;
+}
+
+.aligned-text {
+    display: block;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 30px;
+    margin-bottom: 20px;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right {
+    text-align: right;
+}
+
+.cover__description {
+    margin-top: 106px;
+    display: flex;
+    align-items: center;
+    gap: 104px;
+}
+
+.cover__description-text {
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    word-spacing: 19px;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 0;
+}
+
+.bet-button {
+    display: block;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 12px 32px 11px 31px;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
