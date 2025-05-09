@@ -22,7 +22,7 @@
     list-style: none;
 }
 
-.header__link_active  {
+.header__link_active {
     border: none;
 }
 
@@ -122,7 +122,7 @@
 }
 
 .card,
-.card-link{
+.card-link {
     height: 100%;
 }
 
@@ -222,6 +222,7 @@
 }
 
 .footer__menu-link {
+    font-size: 18px;
     border-bottom: 1px solid #000;
 }
 
@@ -235,10 +236,6 @@
     text-align: right;
     list-style: none;
     margin-left: 93px;
-}
-
-.footer__menu-link {
-    font-size: 18px;
 }
 
 .footer__social-icon {
