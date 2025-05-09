@@ -44,6 +44,7 @@ button {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
+  line-height: 1.35;
 }
 
 .overlay {
@@ -70,22 +71,18 @@ button {
   background: url("../images/cover.jpg"), center, no-repeat;
   position: relative;
   z-index: 1;
-  color: #fff;
 }
 
 .lots {
-  min-height: 723px;
-  display: flex;
-  gap: 25px;
   margin: 0 24px 120px;
 }
 
 .about {
-  min-height: 595px;
-  margin: 0 24px 120px;
+  margin: 0 24px 180px;
   padding-top: 35px;
   padding-left: 47px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 240px 1fr;
   gap: 72px;
 }
 
@@ -93,5 +90,5 @@ button {
    min-height: 180px;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-   padding: 61px 50px 0;
+   padding: 0 50px;
   }
