@@ -103,7 +103,7 @@
 .bet-button {
     display: block;
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid currentColor;
     padding: 12px 32px 11px 31px;
     color: #fff;
     font-size: 22px;
@@ -149,25 +149,23 @@
     z-index: 1;
 }
 /* в сокращенное свойство background не получилось отцентровать фоновую картинку, только в развернутом виде*/
-.card_type_film {
-    background-image: url("../images/card-lot-01.jpg");
+.card_type_film,
+.card_type_book,
+.card_type_picture {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
+}
+.card_type_film {
+    background-image: url("../images/card-lot-01.jpg");
 }
 
 .card_type_book {
     background-image: url("../images/card-lot-02.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .card_type_picture {
     background-image: url("../images/card-lot-03.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .card__title {
