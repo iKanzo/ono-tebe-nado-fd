@@ -1,3 +1,11 @@
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: #000;
+    opacity: 0.6;
+    z-index: -1;
+}
+
 .header__links-list {
     display: flex;
     gap: 32.5px;
@@ -36,6 +44,13 @@
 .header__address {
     max-width: 240px;
     justify-self: end;
+}
+
+.address {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.35;
 }
 
 .address__link {
@@ -203,6 +218,7 @@
     margin-bottom: 100px;
 }
 
+/* убрал тег br, указал максимальную ширину, но перенос слов не такой как указан в макете, нет ни как их лишних отступов. Перенос строк не работает только лишь в этом месте*/
 .about__text {
     max-width: 693px;
     font-size: 20px;

@@ -38,25 +38,6 @@ button {
   font: inherit;
 }
 
-/* общие стили по классам*/
-
-.address {
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 1.35;
-}
-
-.overlay {
-  position: absolute;
-  inset: 0;
-  background-color: #000;
-  opacity: 0.6;
-  z-index: -1;
-}
-
-/* стили для секций*/
-
 .header {
   padding: 91px 50px 97px;
   display: grid;
@@ -68,7 +49,8 @@ button {
   padding: 165px 20px 50px 50px;
   margin-bottom: 180px;
   min-height: 757px;
-  background: url("../images/cover.jpg"), center, no-repeat;
+  background: url("../images/cover.jpg"), center center, no-repeat;
+  background-size: cover;
   position: relative;
   z-index: 1;
 }
@@ -87,8 +69,7 @@ button {
 }
 
  .footer {
-   min-height: 180px;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-   padding: 0 50px;
+   padding: 0 50px 82px;
   }
