@@ -37,39 +37,3 @@ img {
 button {
   font: inherit;
 }
-
-.header {
-  padding: 91px 50px 97px;
-  display: grid;
-  grid-template-columns: 1fr min-content 1fr;
-  align-items: center;
-}
-
-.cover {
-  padding: 165px 20px 50px 50px;
-  margin-bottom: 180px;
-  min-height: 757px;
-  background: url("../images/cover.jpg"), center center, no-repeat;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-}
-
-.lots {
-  margin: 0 24px 120px;
-}
-
-.about {
-  margin: 0 24px 180px;
-  padding-top: 35px;
-  padding-left: 47px;
-  display: grid;
-  grid-template-columns: 240px 1fr;
-  gap: 72px;
-}
-
- .footer {
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-   padding: 0 50px 82px;
-  }
